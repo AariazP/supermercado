@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.VistaDomiciliario">
+   <children>
+      <Label layoutX="268.0" layoutY="23.0" text="Domiciliario" />
+      <Separator layoutX="6.0" layoutY="51.0" prefHeight="2.0" prefWidth="592.0" />
+      <Label layoutX="24.0" layoutY="75.0" text="Pedidos Pendientes" />
+      <TableView layoutX="24.0" layoutY="120.0" prefHeight="250.0" prefWidth="438.0">
+        <columns>
+          <TableColumn prefWidth="225.5999755859375" text="Pedidos" />
+          <TableColumn minWidth="0.0" prefWidth="211.99997558593748" text="Dirección" />
+        </columns>
+      </TableView>
+      <RadioButton layoutX="476.0" layoutY="191.0" mnemonicParsing="false" text="Hecho" />
+      <RadioButton layoutX="476.0" layoutY="319.0" mnemonicParsing="false" text="Hecho" />
+      <RadioButton layoutX="476.0" layoutY="257.0" mnemonicParsing="false" text="Hecho" />
+   </children>
+</AnchorPane>
