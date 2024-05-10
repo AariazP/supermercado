@@ -16,8 +16,6 @@ public class AdminController {
     @FXML
     private TableView<Producto> tblProd;
 
-    @FXML
-    private TextField txtCodProd;
 
     @FXML
     private TextField txtMarcaProd;
@@ -65,7 +63,6 @@ public class AdminController {
         if(productoSeleccionado != null){
             this.txtPrecioProd.setText(productoSeleccionado.getPrecio()+"");
             this.txtNomProd.setText(productoSeleccionado.getNombre());
-            this.txtCodProd.setText(productoSeleccionado.getCodigo());
             this.txtMarcaProd.setText(productoSeleccionado.getMarca());
         }
 
@@ -76,7 +73,6 @@ public class AdminController {
 
 
         Producto producto = new Producto();
-        producto.setCodigo(txtCodProd.getText());
         producto.setMarca(txtMarcaProd.getText());
         producto.setNombre(txtNomProd.getText());
         producto.setPrecio(Double.parseDouble(txtPrecioProd.getText()));
@@ -122,7 +118,6 @@ public class AdminController {
     public void limpiarTabla(){
         this.txtPrecioProd.setText("");
         this.txtNomProd.setText("");
-        this.txtCodProd.setText("");
         this.txtMarcaProd.setText("");
     }
 

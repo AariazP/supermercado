@@ -18,8 +18,6 @@
       <TextField fx:id="txtMarcaProd" layoutX="141.0" layoutY="155.0" />
       <Label layoutX="83.0" layoutY="209.0" text="Precio" />
       <TextField fx:id="txtPrecioProd" layoutX="141.0" layoutY="205.0" />
-      <Label layoutX="80.0" layoutY="261.0" text="Codigo" />
-      <TextField fx:id="txtCodProd" layoutX="141.0" layoutY="253.0" />
       <Label layoutX="58.0" layoutY="66.0" text="Añadir nuevo Producto" />
       <Separator layoutY="42.0" prefHeight="2.0" prefWidth="604.0" />
       <TableView fx:id="tblProd" layoutX="347.0" layoutY="53.0" onMouseClicked="#cargarInfo" prefHeight="256.0" prefWidth="242.0">

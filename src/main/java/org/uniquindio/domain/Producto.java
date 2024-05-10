@@ -8,10 +8,16 @@ public class Producto {
     private Double precio;
     private String codigo;
 
+    private static int contador = 100;
 
 
-    public Producto(String nombre, String marca, Double precio, String codigo) {}
-    public Producto(){}
+
+    public Producto(String nombre, String marca, Double precio) {
+        codigo = (contador++) + "";
+    }
+    public Producto(){
+        codigo = (contador++) + "";
+    }
 
     public String getNombre() {
         return nombre;
