@@ -15,8 +15,6 @@ public class IniciarSesionController {
     @FXML
     private TextField txtIdentificacion;
 
-    @FXML
-    private ComboBox<String> cmbRol;
 
     @FXML
     void iniciarSesion(ActionEvent event) throws IOException {
@@ -36,7 +34,6 @@ public class IniciarSesionController {
 
     @FXML
     void initialize() {
-        cmbRol.getItems().addAll("Administrador", "Cliente","Cajero","Domiciliario");
 
     }
 }

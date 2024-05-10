@@ -22,7 +22,7 @@
       <TextField fx:id="txtCodProd" layoutX="141.0" layoutY="253.0" />
       <Label layoutX="58.0" layoutY="66.0" text="Añadir nuevo Producto" />
       <Separator layoutY="42.0" prefHeight="2.0" prefWidth="604.0" />
-      <TableView fx:id="tblProd" layoutX="347.0" layoutY="53.0" prefHeight="256.0" prefWidth="242.0">
+      <TableView fx:id="tblProd" layoutX="347.0" layoutY="53.0" onMouseClicked="#cargarInfo" prefHeight="256.0" prefWidth="242.0">
         <columns>
           <TableColumn fx:id="colCodigo" prefWidth="75.0" text="codigo" />
           <TableColumn fx:id="colNombre" prefWidth="97.59994506835938" text="nombre" />
