@@ -50,4 +50,8 @@ public class Gangazo {
         }
         return null;
     }
+
+    public void agregarProducto(Producto producto) {
+        listaProductos.add(producto);
+    }
 }
