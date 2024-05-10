@@ -9,11 +9,13 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import org.uniquindio.utils.Paths;
 
+import java.io.IOException;
 import java.util.Objects;
 
 public class Main extends Application {
 
     private static Stage view;
+    public static Main main;
 
     public static void main(String[] args) {
 
@@ -23,6 +25,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
+        main = this;
         view = stage;
         FXMLLoader loader = new FXMLLoader(Objects.requireNonNull(getClass().getResource(Paths.INICIAR_SESION)));
         Pane pane = loader.load();
@@ -32,17 +35,22 @@ public class Main extends Application {
     }
 
 
-    public static void actualizarVista(String path, Stage stage) {
+    public static void actualizarVista(String path) throws IOException {
 
-        view = stage;
-        FXMLLoader loader = new FXMLLoader((Main.class.getResource(Paths.VISTA_GERENTE)));
+
+        FXMLLoader loader = new FXMLLoader((Main.class.getResource(path)));
         Pane pane = loader.load();
         Scene scene = new Scene(pane);
-        stage.setScene(scene);
-        stage.show();
-
-        ;
+        view.setScene(scene);
+        view.show();
 
     }
+
+
+    public static Main getMain(){
+        return main;
+    }
+
+
 
 }
