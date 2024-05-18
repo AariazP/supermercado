@@ -1,11 +1,11 @@
 package org.uniquindio.domain;
 
-public class Cliente {
+public class Cliente implements Persona{
     private String nombre;
     private String identificacion;
     private String direccion;
 
-
+    @Override
     public String getIdentificacion() {
         return identificacion;
     }

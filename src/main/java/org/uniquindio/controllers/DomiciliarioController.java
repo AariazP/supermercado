@@ -4,6 +4,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import org.uniquindio.domain.Domiciliario;
+import org.uniquindio.domain.Gangazo;
+import org.uniquindio.domain.Pedido;
+import org.uniquindio.domain.Producto;
 
 public class DomiciliarioController {
 
@@ -19,9 +23,14 @@ public class DomiciliarioController {
     @FXML
     private TableView<?> tblPedidos;
 
+
     @FXML
     void entregar(ActionEvent event) {
 
+        Pedido pedidoSeleccionado = (Pedido) tblPedidos.getSelectionModel().getSelectedItem();
+
+        Gangazo.getInstance().eliminarPedido(pedidoSeleccionado);
     }
+
 
 }
