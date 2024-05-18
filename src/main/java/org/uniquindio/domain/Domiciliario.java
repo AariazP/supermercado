@@ -38,4 +38,20 @@ public class Domiciliario implements Persona{
         listaPedidos.add(pe3);
 
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public ArrayList<Pedido> getListaPedidos() {
+        return listaPedidos;
+    }
+
+    public void setListaPedidos(ArrayList<Pedido> listaPedidos) {
+        this.listaPedidos = listaPedidos;
+    }
 }

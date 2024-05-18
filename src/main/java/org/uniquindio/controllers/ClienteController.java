@@ -56,4 +56,14 @@ public class ClienteController {
     }
 
 
+    public void cargarInfo(MouseEvent mouseEvent) {
+
+        Producto productoSeleccionado = tblProd.getSelectionModel().getSelectedItem();
+
+        if(productoSeleccionado != null){
+            this.txtPrecioProd.setText(productoSeleccionado.getPrecio()+"");
+            this.txtNomProd.setText(productoSeleccionado.getNombre());
+            this.txtMarcaProd.setText(productoSeleccionado.getMarca());
+        }
+    }
 }

@@ -6,8 +6,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.VistaCajero">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.uniquindio.controllers.CajeroController">
    <children>
       <Label layoutX="282.0" layoutY="21.0" text="Cajero" />
       <Separator layoutX="-6.0" layoutY="37.0" prefHeight="7.0" prefWidth="610.0" />
@@ -19,4 +18,3 @@
       <Label layoutX="249.0" layoutY="75.0" text="Registrar Producto" />
    </children>
 </AnchorPane>
-hhhhh

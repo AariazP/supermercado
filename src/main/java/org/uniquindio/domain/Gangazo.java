@@ -7,6 +7,7 @@ public class Gangazo {
 
     private Administrador administrador;
     private Cajero cajero;
+    private Domiciliario domiciliario;
     private static Gangazo gangazo;
     private ArrayList<Producto> listaProductos;
     private ArrayList<Cliente> listaClientes;
@@ -22,12 +23,14 @@ public class Gangazo {
         listaClientes = new ArrayList<>();
         listaProductos = new ArrayList<>();
         cajero = new Cajero();
+        domiciliario = new Domiciliario();
+        iniciarProductos();
+        administrador.setIdentificacion("12345");
+        cajero.setIdentificacion("34567");
+        domiciliario.setIdentificacion("12445");
         Cliente cliente = new Cliente();
         listaClientes.add(cliente);
         cliente.setIdentificacion("23456");
-
-        iniciarProductos();
-        administrador.setIdentificacion("12345");
 
     }
 
@@ -78,16 +81,20 @@ public class Gangazo {
             return  "ADMINISTRADOR";
         }
 
-        for(Cliente cliente : listaClientes){
-            if(cliente.getIdentificacion().equals(identificacion)){
-                return  "CLIENTE";
-            }
-        }
-
         if(cajero.getIdentificacion().equals(identificacion)){
             return  "CAJERO";
         }
 
+        if(domiciliario.getIdentificacion().equals(identificacion)){
+            return  "DOMICILIARIO";
+        }
+
+        for(Cliente cliente : listaClientes){
+
+            if(cliente.getIdentificacion().equals(identificacion)){
+                return  "CLIENTE";
+            }
+        }
 
         return null;
     }

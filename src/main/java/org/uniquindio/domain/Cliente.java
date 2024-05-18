@@ -13,4 +13,20 @@ public class Cliente implements Persona{
     public void setIdentificacion(String identificacion) {
         this.identificacion = identificacion;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
 }
