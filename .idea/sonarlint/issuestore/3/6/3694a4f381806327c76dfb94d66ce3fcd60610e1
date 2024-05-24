@@ -1,18 +1,9 @@
 
 ¸
-java:S1319s"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù„õüÿÿÿÿ8ÄƒëÜú1J$abfaa5a7-df79-451a-802c-f8956e3a2041
+java:S1319t"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù„õüÿÿÿÿ8ÄƒëÜú1J$22219bc5-cfe4-4b6d-9f9f-00d1674e3b55
 ´
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(êåì¼8ÅƒëÜú1J$138685dc-7bd1-4770-af1e-ee827f60888d
-¤
-java:S1450
-"\Remove the "administrador" field and declare it as a local variable in the relevant methods.(­Â«üÿÿÿÿ8„ëÜú1J$fe7317d1-6f69-45a3-a6c7-313e6593649e
-
-java:S1450"URemove the "cajero" field and declare it as a local variable in the relevant methods.(òĞéëşÿÿÿÿ8„ëÜú1J$5371b028-df28-42df-9c67-c065bb39571c
-£
-java:S1450"[Remove the "domiciliario" field and declare it as a local variable in the relevant methods.(‚û¤ñşÿÿÿÿ8‘„ëÜú1J$cbc485e8-f5b6-4b96-a998-bb33c5af6c4f
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(êåì¼8ÅƒëÜú1J$864bd9ea-10cc-434a-833e-cfa54dfe7311
 Ÿ
-java:S1450"\Remove the "listaClientes" field and declare it as a local variable in the relevant methods.(™ì‡·8’„ëÜú1J$a389c697-7ec1-418a-ab5b-595458549070
+java:S1450"\Remove the "listaPersonas" field and declare it as a local variable in the relevant methods.(Ÿ’Ô8üãÑİú1J$97a66346-dae2-4da6-bf37-5433f055afd1
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(œÑùãøÿÿÿÿ8“„ëÜú1J$5db964a7-9eb1-478c-8634-e6e66c93a00f
-x
-java:S1172W"5Remove this unused method parameter "identificacion".(ğ›ñ“8³„ëÜú1J$df408102-fc6d-4c93-b975-b748bd34423f
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(œÑùãøÿÿÿÿ8ù²Ñİú1J$c8c08a69-eaa1-4748-a7ea-996cbb234d26

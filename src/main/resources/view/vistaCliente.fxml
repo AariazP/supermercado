@@ -16,7 +16,7 @@
             <TableColumn fx:id="colPrecio" prefWidth="69.5999755859375" text="precio" />
          </columns>
       </TableView>
-      <Button layoutX="80.0" layoutY="400.0" mnemonicParsing="false" onAction="#agregarAlCarrito" text="Agregar al Carrito" />
+      <Button layoutX="80.0" layoutY="400.0" mnemonicParsing="false" onAction="#addCarrito" text="Agregar al Carrito" />
       <Label layoutX="66.0" layoutY="14.0" text="Productos disponibles" />
       <Label layoutX="599.0" layoutY="14.0" text="Carrito" />
       <TableView fx:id="tblCarrito" layoutX="487.0" layoutY="67.0" onMouseClicked="#cargarInfo" prefHeight="256.0" prefWidth="245.0">

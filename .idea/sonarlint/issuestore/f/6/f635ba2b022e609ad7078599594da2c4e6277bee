@@ -1,13 +1,14 @@
 
-L	java:S106+"+Replace this use of System.out by a logger.(Á˜İ™úÿÿÿÿ8°äÂİú1
-F	java:S1060"+Replace this use of System.out by a logger.(Î½ÌB8°äÂİú1
-F	java:S1065"+Replace this use of System.out by a logger.(İ¼Ù8±äÂİú1
+Ã
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö»Šx8´ÆØİú1J$f5ea1a2d-19c7-470b-994c-13966898d7f5
+l	java:S1060"+Replace this use of System.out by a logger.(Î½ÌB8Ë³Ñİú1J$0cd3d974-3bab-429f-b0ba-4b5d180ab746
+l	java:S1065"+Replace this use of System.out by a logger.(İ¼Ù8Ë³Ñİú1J$d0d5e426-354e-44e7-a8d7-0989396025ae
 ~
-java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8¦Ì¹İú1J$1c5439cd-facc-49a0-853d-e93216fe1ee0
+java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8Ë³Ñİú1J$a69a52be-fa96-4168-a721-ecd37567e65c
 ‚
-java:S1128"?Remove this unused import 'org.uniquindio.domain.Domiciliario'.(×½Â™8Å¡½İú1J$837ba45a-066e-44c8-8b8c-4069c6c6c8de
+java:S1128"?Remove this unused import 'org.uniquindio.domain.Domiciliario'.(×½Â™8Ë³Ñİú1J$5f462e8b-078e-4fae-a8b9-cf9a85c4de7f
 }
-java:S1128	":Remove this unused import 'org.uniquindio.domain.Gangazo'.(ŞåÄ´8¦Ì¹İú1J$b9fa7777-a2a3-4c11-81ad-d84e062dc69a
+java:S1128	":Remove this unused import 'org.uniquindio.domain.Gangazo'.(ŞåÄ´8á¬Êİú1J$d5536f11-448e-4803-a99c-2d3835839785
 |
 java:S1128
-"9Remove this unused import 'org.uniquindio.domain.Pedido'.(ğí8¦Ì¹İú1J$43e073a6-9802-4b1f-9802-1d60ed2d5c8f
+"9Remove this unused import 'org.uniquindio.domain.Pedido'.(ğí8Ë³Ñİú1J$3fa01c70-e4b9-463e-b801-6ac3bd41d020

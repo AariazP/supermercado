@@ -39,8 +39,8 @@ public class ClienteController {
     private TableView<Producto> tblProd;
 
     @FXML
-    void agregarAlCarrito(ActionEvent event) {
-        System.out.println("agregarAlCarrito");
+    void addCarrito(ActionEvent event) {
+
     }
 
     @FXML

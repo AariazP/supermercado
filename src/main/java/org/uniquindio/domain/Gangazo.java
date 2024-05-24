@@ -85,27 +85,28 @@ public class Gangazo {
     }
 
     public String login(String identificacion) {
-        
-        for(Persona p: listaPersonas){
 
-            if(p instanceof Administrador){
-                return "ADMINISTRADOR";
+        if(administrador.getIdentificacion().equals(identificacion) ){
+            return  "ADMINISTRADOR";
+        }
+
+        if(cajero.getIdentificacion().equals(identificacion)){
+            return  "CAJERO";
+        }
+
+        if(domiciliario.getIdentificacion().equals(identificacion)){
+            return  "DOMICILIARIO";
+        }
+
+        for(Cliente cliente : listaClientes){
+
+            if(cliente.getIdentificacion().equals(identificacion)){
+                return  "CLIENTE";
             }
-
-            else if(p instanceof Cajero){
-                return "CAJERO";
-            }
-
-            else if(p instanceof Domiciliario){
-                return  "DOMICILIARIO";
-            }
-
-            else return "CLIENTE";
-
-
         }
 
         return null;
+
     }
 
     public void agregarProducto(Producto producto) {
