@@ -1,2 +1,6 @@
-package org.uniquindio.domain;public class TarjetaCredito {
+package org.uniquindio.domain;
+
+import org.uniquindio.domain.interfaces.MetodoPago;
+
+public class TarjetaCredito implements MetodoPago {
 }

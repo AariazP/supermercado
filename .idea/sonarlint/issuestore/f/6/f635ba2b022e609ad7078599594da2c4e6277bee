@@ -1,0 +1,13 @@
+
+L	java:S106+"+Replace this use of System.out by a logger.(Á˜İ™úÿÿÿÿ8°äÂİú1
+F	java:S1060"+Replace this use of System.out by a logger.(Î½ÌB8°äÂİú1
+F	java:S1065"+Replace this use of System.out by a logger.(İ¼Ù8±äÂİú1
+~
+java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8¦Ì¹İú1J$1c5439cd-facc-49a0-853d-e93216fe1ee0
+‚
+java:S1128"?Remove this unused import 'org.uniquindio.domain.Domiciliario'.(×½Â™8Å¡½İú1J$837ba45a-066e-44c8-8b8c-4069c6c6c8de
+}
+java:S1128	":Remove this unused import 'org.uniquindio.domain.Gangazo'.(ŞåÄ´8¦Ì¹İú1J$b9fa7777-a2a3-4c11-81ad-d84e062dc69a
+|
+java:S1128
+"9Remove this unused import 'org.uniquindio.domain.Pedido'.(ğí8¦Ì¹İú1J$43e073a6-9802-4b1f-9802-1d60ed2d5c8f

@@ -1,5 +1,7 @@
 package org.uniquindio.domain;
 
+import org.uniquindio.domain.interfaces.Persona;
+
 import java.util.ArrayList;
 
 public class Gangazo {
@@ -33,9 +35,11 @@ public class Gangazo {
         listaClientes.add(cliente);
         cliente.setIdentificacion("23456");
 
+        listaPersonas= new ArrayList<>();
         listaPersonas.add(administrador);
         listaPersonas.add(cajero);
         listaPersonas.add(domiciliario);
+
 
     }
 

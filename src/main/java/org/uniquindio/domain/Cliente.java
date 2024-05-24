@@ -1,9 +1,14 @@
 package org.uniquindio.domain;
 
-public class Cliente implements Persona{
+import org.uniquindio.domain.interfaces.Persona;
+
+import java.util.ArrayList;
+
+public class Cliente implements Persona {
     private String nombre;
     private String identificacion;
     private String direccion;
+    private ArrayList<Compra> compras;
 
     @Override
     public String getIdentificacion() {
@@ -28,5 +33,9 @@ public class Cliente implements Persona{
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public ArrayList<Compra> getCompras() {
+        return compras;
     }
 }

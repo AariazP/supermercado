@@ -1,9 +1,27 @@
 package org.uniquindio.domain;
 
-public class Cajero implements Persona{
+import org.uniquindio.domain.interfaces.Persona;
+
+public class Cajero implements Persona {
 
     private String nombre;
     private String identificacion;
+
+
+    public Cajero(String nombre, String identificacion) {
+        this.nombre = nombre;
+        this.identificacion = identificacion;
+    }
+
+    public Cajero() {
+    }
+
+
+    public  void registrarCompra(Cliente cliente, Compra compra){
+        cliente.getCompras().add(compra);
+    }
+
+
 
     @Override
     public String getIdentificacion() {
@@ -13,6 +31,7 @@ public class Cajero implements Persona{
     public void setIdentificacion(String identificacion) {
         this.identificacion = identificacion;
     }
+
 
     public String getNombre() {
         return nombre;

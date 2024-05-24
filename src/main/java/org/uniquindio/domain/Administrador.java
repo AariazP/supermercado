@@ -1,5 +1,7 @@
 package org.uniquindio.domain;
 
+import org.uniquindio.domain.interfaces.Persona;
+
 public class Administrador implements Persona {
     private String nombre;
     private String identificacion;

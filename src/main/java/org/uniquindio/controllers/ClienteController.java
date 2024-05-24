@@ -5,6 +5,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import org.uniquindio.domain.Domiciliario;
 import org.uniquindio.domain.Gangazo;
 import org.uniquindio.domain.Pedido;
 import org.uniquindio.domain.Producto;
@@ -14,20 +15,7 @@ import java.awt.event.ActionEvent;
 public class ClienteController {
 
     @FXML
-    private TableView<Producto> tblProd;
-
-    @FXML
-    private TableView<Producto> tblProd1;
-
-
-    @FXML
-    private TextField txtMarcaProd;
-
-    @FXML
-    private TextField txtNomProd;
-
-    @FXML
-    private TextField txtPrecioProd;
+    private TableColumn<Producto, Integer> colCantidad;
 
     @FXML
     private TableColumn<Producto, String> colCodigo;
@@ -38,32 +26,30 @@ public class ClienteController {
     @FXML
     private TableColumn<Producto, Double> colPrecio;
 
+    @FXML
+    private TableColumn<Producto, Double> colPrecioCarrito;
 
-@FXML
-    void agregarAlCarrito(ActionEvent event){
+    @FXML
+    private TableColumn<Producto, String> colProducto;
 
-    Producto producto = new Producto();
-    tblProd1.getItems().add(producto);
+    @FXML
+    private TableView<Producto> tblCarrito;
 
-    limpiarTabla();
-}
+    @FXML
+    private TableView<Producto> tblProd;
 
-@FXML
-    private void limpiarTabla() {
-        this.txtPrecioProd.setText("");
-        this.txtNomProd.setText("");
-        this.txtMarcaProd.setText("");
+    @FXML
+    void agregarAlCarrito(ActionEvent event) {
+        System.out.println("agregarAlCarrito");
     }
 
+    @FXML
+    void cargarInfo(MouseEvent event) {
+        System.out.println("cargarInfo");
+    }
 
-    public void cargarInfo(MouseEvent mouseEvent) {
-
-        Producto productoSeleccionado = tblProd.getSelectionModel().getSelectedItem();
-
-        if(productoSeleccionado != null){
-            this.txtPrecioProd.setText(productoSeleccionado.getPrecio()+"");
-            this.txtNomProd.setText(productoSeleccionado.getNombre());
-            this.txtMarcaProd.setText(productoSeleccionado.getMarca());
-        }
+    @FXML
+    void comprar(ActionEvent event) {
+        System.out.println("comprar");
     }
 }

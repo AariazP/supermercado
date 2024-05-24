@@ -1,4 +1,4 @@
-package org.uniquindio.domain;
+package org.uniquindio.domain.interfaces;
 
 public interface Persona {
 

@@ -1,2 +1,4 @@
-package org.uniquindio.domain;public interface ProcesarProducto {
+package org.uniquindio.domain.interfaces;
+
+public interface ProcesarProducto {
 }

@@ -1,9 +1,10 @@
 package org.uniquindio.domain;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.uniquindio.domain.interfaces.Persona;
 
-public class Domiciliario implements Persona{
+import java.util.ArrayList;
+
+public class Domiciliario implements Persona {
     private String nombre;
     private String identificacion;
     private ArrayList<Pedido> listaPedidos;
