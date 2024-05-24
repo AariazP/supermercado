@@ -10,6 +10,17 @@ public class Cliente implements Persona {
     private String direccion;
     private ArrayList<Compra> compras;
 
+    public Cliente(String nombre, String identificacion, String direccion) {
+        this.nombre = nombre;
+        this.identificacion = identificacion;
+        this.direccion = direccion;
+        compras = new ArrayList<>();
+    }
+
+    public Cliente() {
+        compras = new ArrayList<>();
+    }
+
     @Override
     public String getIdentificacion() {
         return identificacion;

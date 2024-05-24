@@ -23,11 +23,28 @@ public class IniciarSesionController {
         String rol = Gangazo.iniciarSesion(identificacion);
 
         switch (rol) {
-            case "CLIENTE" -> Main.actualizarVista(Paths.VISTA_CLIENTE);
-            case "ADMINISTRADOR" -> Main.actualizarVista(Paths.VISTA_ADMIN);
-            case "CAJERO" -> Main.actualizarVista(Paths.VISTA_CAJERO);
-            case "DOMICILIARIO" -> Main.actualizarVista(Paths.VISTA_DOMICILIARIO);
-            default -> System.out.println("No se encontro con esa identificacion");
+            case "CLIENTE":
+                Main.setUsuarioActual(identificacion);
+                Main.actualizarVista(Paths.VISTA_CLIENTE);
+                break;
+
+            case  "ADMINISTRADOR":
+                Main.setUsuarioActual(identificacion);
+                Main.actualizarVista(Paths.VISTA_ADMIN);
+                break;
+            case "CAJERO":
+                Main.setUsuarioActual(identificacion);
+                Main.actualizarVista(Paths.VISTA_CAJERO);
+                break;
+
+            case "DOMICILIARIO":
+                Main.setUsuarioActual(identificacion);
+                Main.actualizarVista(Paths.VISTA_DOMICILIARIO);
+                break;
+
+            default:
+                System.out.println("Usuario no encontrado");
+                break;
         }
     }
 

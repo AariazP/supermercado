@@ -1,6 +1,4 @@
 
-Â
-java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿJ$8ac9b00d-2ba0-4e68-9da1-77f9883f2151
-k	java:S106"+Replace this use of System.out by a logger.(ÐÀ²˜ùÿÿÿÿJ$330b61e1-b7ca-4557-ab1f-67427b0fa7ee
-v
-java:S1128":Remove this unused import 'javafx.scene.control.ComboBox'.(òÀø¸J$a0a0d9b1-784e-45e2-9861-79dbf554ac66
+£
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8‰ÜèÞú1
+G	java:S106."+Replace this use of System.out by a logger.(Þ¾¢ÿ8‹ÜèÞú1

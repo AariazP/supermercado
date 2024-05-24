@@ -13,7 +13,11 @@ public class Compra {
     public Compra(MetodoPago metodoPago, double total, ArrayList<Producto> productos, Cliente cliente) {
         this.metodoPago = metodoPago;
         this.total = total;
-        this.productos = productos;
+        this.productos = new ArrayList<>();
+    }
+
+    public Compra() {
+        productos = new ArrayList<>();
     }
 
 
@@ -22,8 +26,13 @@ public class Compra {
     }
 
 
-    public void setMetodoPago(MetodoPago metodoPago) {
-        this.metodoPago = metodoPago;
+    public void setMetodoPago(String metodoPago) {
+
+        switch (metodoPago) {
+            case "TarjetaCredito" -> this.metodoPago = new TarjetaCredito();
+            case "TarjetaGangazo" -> this.metodoPago = new TarjetaGangazo();
+            case "Efectivo" -> this.metodoPago = new Efectivo();
+        }
     }
 
 
@@ -47,6 +56,13 @@ public class Compra {
     }
 
 
-
+    @Override
+    public String toString() {
+        return "Compra{" +
+                "metodoPago=" + metodoPago +
+                ", total=" + total +
+                ", productos=" + productos +
+                '}';
+    }
 
 }

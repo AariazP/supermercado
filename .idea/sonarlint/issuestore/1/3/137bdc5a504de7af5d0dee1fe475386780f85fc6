@@ -1,15 +1,19 @@
 
+‘
+java:S1104"PMake main a static final constant or non-public and provide accessors if needed.(Ù¨€¤şÿÿÿÿJ$d5e251d6-f498-4625-91a6-dc7dba821f9f
+œ
+java:S1104"YMake usuarioActual a static final constant or non-public and provide accessors if needed.(‹Ü ‚8ƒàŞú1J$85460411-8c2c-4d41-a1a2-de3880737f7f
 k
-java:S1104"PMake main a static final constant or non-public and provide accessors if needed.(Ù¨€¤şÿÿÿÿ
-E
-java:S1444"*Make this "public static main" field final(Ù¨€¤şÿÿÿÿ
-c
-java:S1845"MRename method "main" to prevent any misunderstanding/clash with field "main".(Çµí‘
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(¬˜í¸şÿÿÿÿ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(¼îÚÕúÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ
-F
-java:S1128"0Remove this unused import 'javafx.scene.Parent'.(²ä¡È
+java:S1444"*Make this "public static main" field final(Ù¨€¤şÿÿÿÿJ$f667750b-f483-456f-90b0-9db76f2cd3c9
+v
+java:S1444"3Make this "public static usuarioActual" field final(‹Ü ‚8„àŞú1J$9f08b136-a05d-4955-89d1-75fe784649a7
+‰
+java:S1845"MRename method "main" to prevent any misunderstanding/clash with field "main".(Çµí‘J$7d4f1dc9-3e39-4f99-b3bb-d9e3b74c79fa
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(¬˜í¸şÿÿÿÿJ$0a6546a8-ce38-48f2-bfb5-01c267c8b021
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(¼îÚÕúÿÿÿÿJ$6e738ff6-e8be-4791-81c6-da67bfa561af
+n
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿJ$bb1da3ad-ea72-44e3-bc4c-426d331d73a9
+l
+java:S1128"0Remove this unused import 'javafx.scene.Parent'.(²ä¡ÈJ$39c57111-598f-4585-bb44-492752b47129

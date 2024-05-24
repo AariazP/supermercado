@@ -1,14 +1,5 @@
 
-Ã
-java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö»Šx8´ÆØİú1J$f5ea1a2d-19c7-470b-994c-13966898d7f5
-l	java:S1060"+Replace this use of System.out by a logger.(Î½ÌB8Ë³Ñİú1J$0cd3d974-3bab-429f-b0ba-4b5d180ab746
-l	java:S1065"+Replace this use of System.out by a logger.(İ¼Ù8Ë³Ñİú1J$d0d5e426-354e-44e7-a8d7-0989396025ae
-~
-java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8Ë³Ñİú1J$a69a52be-fa96-4168-a721-ecd37567e65c
-‚
-java:S1128"?Remove this unused import 'org.uniquindio.domain.Domiciliario'.(×½Â™8Ë³Ñİú1J$5f462e8b-078e-4fae-a8b9-cf9a85c4de7f
-}
-java:S1128	":Remove this unused import 'org.uniquindio.domain.Gangazo'.(ŞåÄ´8á¬Êİú1J$d5536f11-448e-4803-a99c-2d3835839785
-|
-java:S1128
-"9Remove this unused import 'org.uniquindio.domain.Pedido'.(ğí8Ë³Ñİú1J$3fa01c70-e4b9-463e-b801-6ac3bd41d020
+É
+java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òş¶¯øÿÿÿÿ8×Ñ’ßú1J$0d3a6747-bfce-4729-bd61-25eb165f30ee
+z
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8Ò®£ßú1J$43b1890f-d2f8-4c0f-affe-942ae3fea305

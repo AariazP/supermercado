@@ -5,8 +5,6 @@ u
 Esrc/main/java/org/uniquindio/controllers/IniciarSesionController.java,a/7/a78c2bb341e3655cb56edf58fd66903d184b3eee
 `
 0src/main/java/org/uniquindio/domain/Gangazo.java,3/6/3694a4f381806327c76dfb94d66ce3fcd60610e1
-c
-3src/main/java/org/uniquindio/domain/MetodoPago.java,6/6/66c248684cfd01d2ffa9e8898aede55325d87cce
 a
 1src/main/java/org/uniquindio/domain/Efectivo.java,0/6/06558f6defa0f2e1bf004682855c93f8677f4064
 g
@@ -19,8 +17,6 @@ _
 /src/main/java/org/uniquindio/domain/Compra.java,a/7/a7c63efe1e265831ae81848d122a52704391be21
 _
 /src/main/java/org/uniquindio/domain/Cajero.java,d/0/d0ea288ea8de0735e9dd31ef6db264346e59188f
-i
-9src/main/java/org/uniquindio/domain/ProcesarProducto.java,3/7/37ed15f0cddd8f3542c81f6b9ed7bed5c5091ea0
 n
 >src/main/java/org/uniquindio/domain/interfaces/MetodoPago.java,4/3/43a22e87362897205aa270957e06f0b034278231
 t
@@ -31,3 +27,9 @@ o
 ?src/main/java/org/uniquindio/controllers/ClienteController.java,f/6/f635ba2b022e609ad7078599594da2c4e6277bee
 m
 =src/main/java/org/uniquindio/controllers/AdminController.java,d/3/d3c6bade6ffb19dab7215704701bfd93392f875c
+]
+-src/main/java/org/uniquindio/utils/Paths.java,e/d/ed01f18754b057f787efeda9329b80fcf4b30c57
+_
+/src/main/java/org/uniquindio/domain/Pedido.java,5/3/53ef1f57e8c33478bfd7b41ca07e274406cef45e
+d
+4src/main/java/org/uniquindio/domain/ProdCarrito.java,8/6/865b760902a00bf0974f27751cd876e8d4f7aa75

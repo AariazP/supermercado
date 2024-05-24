@@ -1,9 +1,16 @@
 
 ¸
-java:S1319t"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù„õüÿÿÿÿ8ÄƒëÜú1J$22219bc5-cfe4-4b6d-9f9f-00d1674e3b55
+java:S1319v"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù„õüÿÿÿÿ8€²ßú1J$63ccc722-24ae-4f43-b8a5-adbf87d5c6da
 ´
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(êåì¼8ÅƒëÜú1J$864bd9ea-10cc-434a-833e-cfa54dfe7311
+java:S1319‘"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(êåì¼8²ßú1J$85ec2349-d446-4392-81e3-553c6c75467f
+´
+java:S1319š"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…‰ºŒ8²ßú1J$3f0f40d2-dfd5-44ec-9522-d22e1861cda7
+¦
+java:S4144š"bUpdate this method so that its implementation is not identical to "getListaProductos" on line 118.(…‰ºŒ8—²ßú1J$81a6ceb7-697b-4c50-adfc-a7c7e0a10a6d
 Ÿ
-java:S1450"\Remove the "listaPersonas" field and declare it as a local variable in the relevant methods.(Ÿ’Ô8üãÑİú1J$97a66346-dae2-4da6-bf37-5433f055afd1
+java:S1450"\Remove the "listaPersonas" field and declare it as a local variable in the relevant methods.(Ÿ’Ô8˜²ßú1J$99ff8f98-ec34-43db-8d72-80242eb8a975
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(œÑùãøÿÿÿÿ8ù²Ñİú1J$c8c08a69-eaa1-4748-a7ea-996cbb234d26
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(œÑùãøÿÿÿÿ8˜²ßú1J$3559b7fd-ff0e-46bd-9c58-6c5e988c1c5f
+n	java:S106´"+Replace this use of System.out by a logger.(¡ °8Ÿ²ßú1J$9752fbca-1fd6-4522-ad42-2f7dcce2bbc0
+y
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ê‘ßú1J$d7b907ba-ece7-4132-8b74-48f369122564

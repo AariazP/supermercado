@@ -1,5 +1,7 @@
 package org.uniquindio.domain;
 
+import javafx.collections.ObservableList;
+import javafx.scene.control.Alert;
 import org.uniquindio.domain.interfaces.Persona;
 
 import java.util.ArrayList;
@@ -148,4 +150,40 @@ public class Gangazo {
 
         listaPedidos.remove(pedidoSeleccionado);
     }
+
+    public ArrayList<Producto> getProductos() {
+        return listaProductos;
+    }
+
+    public void comprar(String idCliente, ObservableList<ProdCarrito> items, String metodoPago) {
+
+        Cliente cliente = null;
+        for(Cliente c : listaClientes){
+            if(c.getIdentificacion().equals(idCliente)){
+                cliente = c;
+            }
+        }
+
+        if(cliente != null){
+            Compra compra = new Compra();
+            double total = 0;
+            compra.setMetodoPago(metodoPago);
+            for(ProdCarrito prodCarrito : items){
+                Producto producto = new Producto();
+                producto.setNombre(prodCarrito.getProducto());
+                producto.setPrecio(prodCarrito.getPrecio());
+                compra.getProductos().add(producto);
+                total += prodCarrito.getPrecio();
+            }
+            compra.setTotal(total);
+            cajero.registrarCompra(cliente, compra);
+            System.out.println("compra realizada = " + compra);
+        }
+
+
+    }
+
+
+
+
 }

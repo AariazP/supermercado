@@ -1,9 +1,10 @@
 
 ¬
-java:S1319"iThe type of "productos" should be an interface such as "List" rather than the implementation "ArrayList".(úıïÚ8²ûİú1J$26f933f5-469b-4258-b05f-b4ed702bf4a5
+java:S1319"iThe type of "productos" should be an interface such as "List" rather than the implementation "ArrayList".(úıïÚ8²ûİú1J$c9bb5b1a-0a06-4b05-af18-eb5d38e57438
 ³
-java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…‰ºŒ8²ûİú1J$d04043c3-751e-4955-a41c-c211423006dc
+java:S13191"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…‰ºŒ8²ûİú1J$de6724bf-1c1d-4d24-8fc2-411e97ee33d8
 ±
-java:S1319-"iThe type of "productos" should be an interface such as "List" rather than the implementation "ArrayList".(Üé¶‚ûÿÿÿÿ8‡›İú1J$3a6c2837-06db-4743-9c0d-1134f7647c10
-q
-java:S1172".Remove this unused method parameter "cliente".(úıïÚ8ƒšİú1J$87d0931f-9f0f-474c-ac0c-e542ebbc6e96
+java:S13196"iThe type of "productos" should be an interface such as "List" rather than the implementation "ArrayList".(Üé¶‚ûÿÿÿÿ8‡›İú1J$0c1b47c5-27bb-4d0c-a5ad-3c3d77857db2
+€
+java:S1172"=Remove these unused method parameters "productos", "cliente".(úıïÚ8ƒšİú1J$59becd4e-6374-40e8-b915-af976edf14ab
+i	java:S131""Add a default case to this switch.(¼æğıúÿÿÿÿ8‚¼ûŞú1J$e957812e-b767-492d-a268-9cab861e96ec

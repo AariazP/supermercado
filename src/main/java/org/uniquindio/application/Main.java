@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import org.uniquindio.utils.Paths;
@@ -16,6 +17,7 @@ public class Main extends Application {
 
     private static Stage view;
     public static Main main;
+    public static String usuarioActual;
 
     public static void main(String[] args) {
 
@@ -49,6 +51,22 @@ public class Main extends Application {
 
     public static Main getMain(){
         return main;
+    }
+
+    public static String getUsuarioActual() {
+        return usuarioActual;
+    }
+
+    public static void setUsuarioActual(String usuarioActual) {
+        Main.usuarioActual = usuarioActual;
+    }
+
+    public static void mostrarMensaje(String menaje){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Gangazo");
+        alert.setHeaderText("Información");
+        alert.setContentText(menaje);
+        alert.showAndWait();
     }
 
 }
