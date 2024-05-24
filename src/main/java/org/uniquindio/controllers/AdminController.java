@@ -7,8 +7,12 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+import org.uniquindio.application.Main;
 import org.uniquindio.domain.Gangazo;
 import org.uniquindio.domain.Producto;
+import org.uniquindio.utils.Paths;
+
+import java.io.IOException;
 
 public class AdminController {
 
@@ -121,4 +125,8 @@ public class AdminController {
         this.txtMarcaProd.setText("");
     }
 
+    @FXML
+    void irLogin(ActionEvent event) throws IOException {
+        Main.actualizarVista(Paths.INICIAR_SESION);
+    }
 }

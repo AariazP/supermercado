@@ -29,5 +29,6 @@
       </TableView>
       <Button layoutX="428.0" layoutY="316.0" mnemonicParsing="false" onAction="#eliminarProducto" text="Eliminar producto" />
       <Button layoutX="191.0" layoutY="316.0" mnemonicParsing="false" onAction="#actualizarProducto" text="actualizar producto" />
+      <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#irLogin" text="Volver" />
    </children>
 </AnchorPane>
