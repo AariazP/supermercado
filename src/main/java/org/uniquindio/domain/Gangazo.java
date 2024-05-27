@@ -5,6 +5,7 @@ import javafx.scene.control.Alert;
 import org.uniquindio.domain.interfaces.Persona;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Gangazo {
 
