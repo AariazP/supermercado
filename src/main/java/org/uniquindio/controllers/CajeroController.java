@@ -11,6 +11,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import org.uniquindio.application.Main;
 import org.uniquindio.domain.Gangazo;
 import org.uniquindio.domain.Producto;
@@ -44,13 +45,12 @@ public class CajeroController {
 
         String codigo = txtCodigo.getText();
 
+
         for (Producto producto : Gangazo.getInstance().getProductos()) {
 
-            if (Objects.equals(producto.getCodigo(), codigo)) {
-                colRegNombre.setText(producto.getNombre());
-                colRegMarca.setText(producto.getMarca());
-                colRegPrecio.setText(String.valueOf(producto.getPrecio()));
+            if (producto.getCodigo().equals(codigo)) {
 
+                tblRegistro.getItems().add(producto);
                 return;
             }
         }
@@ -65,6 +65,11 @@ public class CajeroController {
     @FXML
     void initialize() {
 
+        this.colRegNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        this.colRegMarca.setCellValueFactory(new PropertyValueFactory<>("marca"));
+        this.colRegPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
+
+        this.tblRegistro.getItems();
     }
 
 }

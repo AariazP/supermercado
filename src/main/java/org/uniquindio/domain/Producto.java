@@ -1,5 +1,9 @@
 package org.uniquindio.domain;
 
+import javafx.scene.control.TableCell;
+import javafx.scene.control.TableColumn;
+import javafx.util.Callback;
+
 public class Producto {
 
 
@@ -19,10 +23,7 @@ public class Producto {
         codigo = (contador++) + "";
     }
 
-    public String getNombre() {
-        return nombre;
-
-    }
+    public String getNombre(){ return nombre;}
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
