@@ -21,18 +21,19 @@ public class Compra {
     }
 
 
+
     public MetodoPago getMetodoPago() {
         return metodoPago;
     }
 
-
     public void setMetodoPago(String metodoPago) {
 
         switch (metodoPago) {
-            case "TarjetaCredito" -> this.metodoPago = new TarjetaCredito();
-            case "TarjetaGangazo" -> this.metodoPago = new TarjetaGangazo();
+            case "Tarjeta de crédito" -> this.metodoPago = new TarjetaCredito();
+            case "Tarjeta gangazo" -> this.metodoPago = new TarjetaGangazo();
             case "Efectivo" -> this.metodoPago = new Efectivo();
         }
+
     }
 
 
@@ -58,6 +59,7 @@ public class Compra {
 
     @Override
     public String toString() {
+
         return "Compra{" +
                 "metodoPago=" + metodoPago +
                 ", total=" + total +

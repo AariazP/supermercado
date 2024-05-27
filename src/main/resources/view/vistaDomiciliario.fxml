@@ -20,5 +20,6 @@
         </columns>
       </TableView>
       <Button layoutX="227.0" layoutY="327.0" mnemonicParsing="false" onAction="#entregar" text="Marcar como entregado" />
+      <Button layoutX="24.0" layoutY="11.0" mnemonicParsing="false" onAction="#irLogin" text="volver" />
    </children>
 </AnchorPane>

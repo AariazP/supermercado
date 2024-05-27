@@ -5,31 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76902ca-424f-4a64-b8dd-6f663a243a7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/ProdCarrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/viewClient.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/137bdc5a504de7af5d0dee1fe475386780f85fc6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/137bdc5a504de7af5d0dee1fe475386780f85fc6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3694a4f381806327c76dfb94d66ce3fcd60610e1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3694a4f381806327c76dfb94d66ce3fcd60610e1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37ed15f0cddd8f3542c81f6b9ed7bed5c5091ea0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66c248684cfd01d2ffa9e8898aede55325d87cce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f3b0d44d929494134305cc626e4a533467c804e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f3b0d44d929494134305cc626e4a533467c804e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78c2bb341e3655cb56edf58fd66903d184b3eee" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78c2bb341e3655cb56edf58fd66903d184b3eee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7c63efe1e265831ae81848d122a52704391be21" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7c63efe1e265831ae81848d122a52704391be21" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f635ba2b022e609ad7078599594da2c4e6277bee" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f635ba2b022e609ad7078599594da2c4e6277bee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37ed15f0cddd8f3542c81f6b9ed7bed5c5091ea0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66c248684cfd01d2ffa9e8898aede55325d87cce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/ConsultaSuscriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/DesuscrfipciónTarjetaG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/SuscripcionTarjetaG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/interfaces/SuscriptorTarjetaG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/IniciarSesionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/IniciarSesionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/CajeroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/CajeroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/DomiciliarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/controllers/DomiciliarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Efectivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Efectivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Gangazo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/Gangazo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/utils/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/utils/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/vistaCliente.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/TarjetaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/TarjetaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/TarjetaGangazo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/TarjetaGangazo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/interfaces/MetodoPago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uniquindio/domain/interfaces/MetodoPago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/vistaCajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/vistaCajero.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/vistaDomiciliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/vistaDomiciliario.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +40,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;StefaniaH016&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AariazP/supermercado.git&quot;,
+    &quot;accountId&quot;: &quot;47b0d6e5-4d29-47d5-a46b-70bbaf50805f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2gvGxXGWSlzOxrNnM94TEOJPfwt" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -63,10 +68,18 @@
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;10e772bf&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aariaz/Downloads/supermercado&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/ArchivosTefa/ideProjects/src/main/resources/view/vistaCajero.fxml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -76,6 +89,8 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.uniquindio.application.Main" />
       <module name="supermercado" />
       <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml" />
@@ -87,7 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -101,7 +117,30 @@
       <updated>1716570887239</updated>
       <workItem from="1716570888757" duration="1544000" />
       <workItem from="1716573603623" duration="2547000" />
+      <workItem from="1716683177971" duration="1124000" />
+      <workItem from="1716684508159" duration="1713000" />
+      <workItem from="1716742416367" duration="5582000" />
+      <workItem from="1716749819978" duration="15459000" />
+      <workItem from="1716765753314" duration="61000" />
+      <workItem from="1716774428754" duration="4789000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ideProjects$App.ic" NAME="App Coverage Results" MODIFIED="1716741409271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

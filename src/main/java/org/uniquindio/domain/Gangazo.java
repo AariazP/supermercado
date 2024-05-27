@@ -62,8 +62,8 @@ public class Gangazo {
         p2.setMarca("Roa");
         p2.setCodigo("2");
 
-        p3.setNombre("Frijoles");
-        p3.setPrecio(5000.0);
+        p3.setNombre("Lentejas");
+        p3.setPrecio(1600.0);
         p3.setMarca("Diana");
         p3.setCodigo("3");
 
@@ -176,6 +176,7 @@ public class Gangazo {
                 total += prodCarrito.getPrecio();
             }
             compra.setTotal(total);
+
             cajero.registrarCompra(cliente, compra);
             System.out.println("compra realizada = " + compra);
         }

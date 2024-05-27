@@ -4,7 +4,7 @@ import org.uniquindio.domain.interfaces.Persona;
 
 import java.util.ArrayList;
 
-public class Cliente implements Persona {
+public class Cliente implements Persona{
     private String nombre;
     private String identificacion;
     private String direccion;
